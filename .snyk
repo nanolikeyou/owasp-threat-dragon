@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.8.0
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -8,3 +8,60 @@ patch:
         patched: '2017-03-14T00:14:57.796Z'
     - owasp-threat-dragon-core > nools > uglify-js:
         patched: '2017-11-29T23:03:59.587Z'
+  SNYK-JS-LODASH-450202:
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - snyk > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - owasp-threat-dragon-core > snyk > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - owasp-threat-dragon-core > snyk > inquirer > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - owasp-threat-dragon-core > snyk > snyk-config > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - owasp-threat-dragon-core > snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - owasp-threat-dragon-core > snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - owasp-threat-dragon-core > snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - owasp-threat-dragon-core > snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - owasp-threat-dragon-core > snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - owasp-threat-dragon-core > snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - owasp-threat-dragon-core > snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - owasp-threat-dragon-core > snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - pug-bootstrap > pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - pug-bootstrap > pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
+    - pug-bootstrap > pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2019-07-04T08:46:27.086Z'
