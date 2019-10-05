@@ -63,7 +63,7 @@
     "pug": "2.0.0-rc.4",
     "pug-bootstrap": "0.0.15",
     "serve-favicon": "2.4.5",
-    "snyk": "^1.52.0"
+    "snyk": "^1.231.0"
   },
   "devDependencies": {
     "angular-mocks": "1.6.7",
